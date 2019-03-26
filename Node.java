@@ -50,4 +50,8 @@ public class Node {
     public Object getCargoReference() {
       return cargoReference;
     }
+
+    public void setCargoReference( Object value) {
+      this.cargoReference = value;
+    }
 }
