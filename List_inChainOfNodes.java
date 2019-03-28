@@ -88,7 +88,7 @@ public class List_inChainOfNodes{
 
       public boolean add ( int index, Object value) {
         if (index <= 0) {
-          addAsHead(value);
+          addAsHead(value); //NTTSTT
           return true;
         }
         int counter = 0;
@@ -103,7 +103,7 @@ public class List_inChainOfNodes{
       }
 
       public boolean remove( int index) {
-        if (index <= 0) {
+        if (index <= 0) { //Edge cases
           headReference = headReference.getReferenceToNextNode();
           return true;
         }

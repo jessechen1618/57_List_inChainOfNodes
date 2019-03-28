@@ -8,7 +8,6 @@ public class Node {
     private Object cargoReference;
     private Node   referenceToNextNode;
 
-
     /**
       Construct an instance
      */

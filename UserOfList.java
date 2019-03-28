@@ -31,7 +31,7 @@ public class UserOfList {
         list.set(2, "a");
         System.out.println(list);
         list.add(1, "a");
-        list.add(0, "b");
+        list.add(0, "b"); //Testing edge cases
         System.out.println(list);
         list.remove(0);
         list.remove(2);
